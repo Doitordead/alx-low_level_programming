@@ -13,7 +13,7 @@ int main(void)
 {
 	int number = 0;
 
-	while (numbers <= 9)
+	while (number <= 9)
 	{
 		printf("%i", number);
 			++number;
