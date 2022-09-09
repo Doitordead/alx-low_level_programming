@@ -15,11 +15,11 @@ int main(void)
 
 	while (charLowwer <= 'z')
 	{
-		if (charLowwer == 'e' || chartLowwer == 'q')
+		if (charLowwer == 'e' || charLowwer == 'q')
 		{
 			++charLowwer;
 		}
-		else ()
+		else
 		{
 			putchar(charLowwer);
 			++charLowwer;
