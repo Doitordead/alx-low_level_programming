@@ -18,12 +18,12 @@ int main(void)
 	while (charLowwer <= 'z')
 	{
 		putchar(charLowwer);
-			++putchar;
+			++charLowwer;
 	}
 	while (charUpper <= 'Z')
 	{
 		putchar(charUpper);
-			++putchar;
+			++charUpper;
 	}
 	putchar('\n');
 }
