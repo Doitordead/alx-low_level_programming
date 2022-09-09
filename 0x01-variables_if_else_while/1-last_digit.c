@@ -26,15 +26,15 @@ int main(void)
 			     */
 	if (lastDigit > 5)
 	{
-		printf("the last digit of %i is %i and it is greater than 5\n" n, lastDigit);
+		printf("the last digit of %i is %i and it is greater than 5\n", n, lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
-		printf("the last digit of %i is %i and it is 0\n"n, lastDigit);
+		printf("the last digit of %i is %i and it is 0\n",n, lastDigit);
 	}
 	else
 	{
-		printf("the last digit of %i is %i and it is less than 5\n"n, lastDigit),
+		printf("the last digit of %i is %i and it is less than 5\n",n, lastDigit),
 	}
 
 	return (0);
