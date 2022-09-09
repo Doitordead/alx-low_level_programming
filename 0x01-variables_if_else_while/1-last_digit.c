@@ -13,7 +13,7 @@
  * Return: the function return 0 if succed
  */
 
-int main(void)
+int main(void) /*Description:*/
 {
 	int n, lastDigit;
 
@@ -30,11 +30,11 @@ int main(void)
 	}
 	else if (lastDigit == 0)
 	{
-		printf("Last digit of %i is %i and is 0\n",n, lastDigit);
+		printf("Last digit of %i is %i and is 0\n", n, lastDigit);
 	}
 	else
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n",n, lastDigit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
 	}
 
 	return (0);
