@@ -34,7 +34,7 @@ int main(void)
 	}
 	else
 	{
-		printf("the last digit of %i is %i and it is less than 5\n",n, lastDigit),
+		printf("the last digit of %i is %i and it is less than 5\n",n, lastDigit);
 	}
 
 	return (0);
