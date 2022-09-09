@@ -19,13 +19,13 @@ int main(void)
 		putchar(number);
 		++number;
 	}
-	charLowwer 0 = 'a';
+	charLowwer = 'a';
 	while (charLowwer <= 'f')
 	{
 		putchar(charLowwer);
 			++charLowwer;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
