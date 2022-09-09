@@ -16,7 +16,7 @@ int main(void)
 
 	while (number <= 9)
 	{
-		putchar(number);
+		putchar(number + '0');
 		++number;
 	}
 	charLowwer = 'a';
