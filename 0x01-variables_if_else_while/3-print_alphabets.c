@@ -11,7 +11,6 @@
  */
 int main(void)
 {
-	int i = 0;
 	char charUpper = 'A';
 	char charLowwer = 'a';
 
@@ -26,4 +25,6 @@ int main(void)
 			++charUpper;
 	}
 	putchar('\n');
+
+	return (0);
 }
