@@ -9,7 +9,7 @@
  *		variable n each time it is executed. Complete
  *		the source code in order to print the last
  *		digit of the number stored in the variable n.
- *
+ *description:
  * Return: the function return 0 if succed
  */
 
@@ -34,7 +34,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, 
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n,
 									lastDigit);
 	}
 
