@@ -15,10 +15,10 @@ int main(void)
 	char character = 'z';
 
 	/* satrting of my code*/
-	while (character <= 'a')
+	while (character >= 'a')
 	{
 		putchar(character);
-			++character;
+			--character;
 	}
 	putchar('\n');
 
