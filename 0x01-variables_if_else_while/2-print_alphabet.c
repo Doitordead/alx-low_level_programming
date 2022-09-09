@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	char character 'a';
+	char character = 'a';
 
 	/* satrting of my code*/
 	while (character >= 'z')
