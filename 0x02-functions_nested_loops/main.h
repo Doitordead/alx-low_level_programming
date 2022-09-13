@@ -1,16 +1,6 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#ifndef ALX_INCLUDED
+#define ALX_INCLUDED
 
-/**
- * main -entry point
- *
- * Description:
- *
- * Return:
- *
- */
-int main(void)
-{
+int _putchar(char);
 
-}
+#endif
