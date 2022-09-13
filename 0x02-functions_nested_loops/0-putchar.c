@@ -16,10 +16,10 @@ int main(void)
 
 	for ( i = 0; i < 8; i++)
 	{
-		_putchar(message[i]);
+		putchar(message[i]);
 	}
 
-	_putchar("\n");
+	putchar("\n");
 
 	return (0);
 }
