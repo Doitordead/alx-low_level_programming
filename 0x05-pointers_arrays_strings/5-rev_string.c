@@ -8,19 +8,21 @@
  *
  * Return nothing
  */
+
 void rev_string(char *s)
 {
-	int i, j;
-	char str;
 
-	for (i = 0; s[i] != '\0'; ++i)
-	{
+	int l, i;
+	char ch;
 
-	}
-	for (j = 0; j < i / 2; ++j)
+	for (l = 0; s[l] != '\0'; ++l)
+		;
+
+	for (i = 0; i < l / 2; ++i)
 	{
-		str = s[i];
-		s[i] = s[i - 1 - i];
-		s[i - 1 - i] = str;
+		ch = s[i];
+		s[i] = s[l - 1 - i]; /*-1 because the array starts from 0*/
+		s[l - 1 - i] = ch;
 	}
+
 }
