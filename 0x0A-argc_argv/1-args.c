@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 {
 	int i = 0;
 
-	while (argv[i] != "\n")
+	if (argc != "\n")
 	{
-		i++;
+		i++
 	}
 	printf("%d\n", i);
 
