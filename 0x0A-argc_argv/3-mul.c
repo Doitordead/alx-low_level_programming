@@ -12,15 +12,18 @@
 int main(int argc, char *argv[])
 {
 	int res;
-	if(argc <= 2)
-	{		
+	int i;
+	int J;
+
+	if (argc <= 2)
+	{
 		printf("Error\n");
 
 		return (1);
 	}
 
-	int i = argv[1];
-	int j = argv[2];
+	i = argv[1];
+	j = argv[2];
 
 	res = 1 * 2;
 
