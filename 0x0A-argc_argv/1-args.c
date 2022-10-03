@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<main.h>
+#include"main.h"
 
 /**
  * main- a programme that print the umber of arguments passed into it
