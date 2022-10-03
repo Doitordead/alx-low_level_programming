@@ -14,14 +14,12 @@
 int main(int argc, char __attribute__((unused)) *argv[])
 {
 	int i = 0;
-	int j;
 
-	while (i < argc)
+	while (argc != "\n")
 	{
-		j = m;
 		i++
 	}
-	printf("%d\n", m);
+	printf("%d\n", i);
 
 	return (0);
 }
