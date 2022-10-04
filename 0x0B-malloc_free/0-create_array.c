@@ -5,9 +5,11 @@
 /**
  * create_array - function that creates an array of chars and initiliazes it
  *	with a specific char
- * @size:
+ * @size: store
  * @c: store the
+ * Return: return 0
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char = *array;
@@ -19,6 +21,7 @@ char *create_array(unsigned int size, char c)
 
 	if (array == NULL)
 		return (NULL);
-	for (index = 0 ;index < size; index++)
+	for (index = 0 ; index < size; index++)
 		array[index] = c;
 	return (array);
+}
