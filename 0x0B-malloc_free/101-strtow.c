@@ -51,8 +51,8 @@ void free_array(char **ar, int i)
 
 /**
  *strtow - split a string to words
- @str: string to split
- Return: NULL if it fails
+ *@str: string to split
+ *Return: NULL if it fails
  */
 
 char **strtow(char *str)
